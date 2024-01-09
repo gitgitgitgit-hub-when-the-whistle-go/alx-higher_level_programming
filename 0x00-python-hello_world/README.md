@@ -10,3 +10,4 @@ python have a package manager: '$ pip install / install --upgrade / uninstall pc
 print removes the quotes
 to format a string it can be done with: modulo "  'hello %s' %name  ", str.format "  'test{}'.format(name)  " and f-string: "" f'test{name}'  ""
 unspoken rule: always check the type of the variable even if assumed it's the correct type
+inside the {} we can use :d :.2f :c etc to determine the type of the variable we are formating with
