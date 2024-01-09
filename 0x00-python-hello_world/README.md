@@ -13,3 +13,4 @@ unspoken rule: always check the type of the variable even if assumed it's the co
 inside the {} we can use :d :.2f :c etc to determine the type of the variable we are formating with
 No string literals means no f"" or "".format because even with empty quotes it count as literal
 the wen of python is printed with "import this"
+the module sys contains write fonctions that allows us to write on stdout or stderr. it also contains sys.exit() that allows us to determine the status code to be echoed.
