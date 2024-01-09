@@ -8,3 +8,4 @@ to print '\' we use the raw string: "print(r"test\")"
 when declaring multi-lines strin litterals we use triple quotes """. to not include a new line we use \ at the end of the line
 python have a package manager: '$ pip install / install --upgrade / uninstall pckg'
 print removes the quotes
+to format a string it can be done with: modulo "  'hello %s' %name  ", str.format "  'test{}'.format(name)  " and f-string: "" f'test{name}'  ""
