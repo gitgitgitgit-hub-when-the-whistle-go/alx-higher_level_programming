@@ -8,7 +8,8 @@ to print '\' we use the raw string: "print(r"test\")"
 when declaring multi-lines strin litterals we use triple quotes """. to not include a new line we use \ at the end of the line
 python have a package manager: '$ pip install / install --upgrade / uninstall pckg'
 print removes the quotes
-to format a string it can be done with: modulo "  'hello %s' %name  ", str.format "  'test{}'.format(name)  " and f-string: "" f'test{name}'  ""
+to format a string it can be done with: modulo "  'hello %s' %name  ", str.format "  'test{}'.format(name)  " and f-string: "" f'test{name}'  "", in case format have multiple argument we can define the order of arguments inside the brackets, for debugging we can use "print(f"variable =")"
 unspoken rule: always check the type of the variable even if assumed it's the correct type
 inside the {} we can use :d :.2f :c etc to determine the type of the variable we are formating with
 No string literals means no f"" or "".format because even with empty quotes it count as literal
+the wen of python is printed with "import this"
