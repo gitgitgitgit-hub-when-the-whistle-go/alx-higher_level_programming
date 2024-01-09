@@ -14,4 +14,5 @@ inside the {} we can use :d :.2f :c etc to determine the type of the variable we
 No string literals means no f"" or "".format because even with empty quotes it count as literal
 the wen of python is printed with "import this"
 the module sys contains write fonctions that allows us to write on stdout or stderr. it also contains sys.exit() that allows us to determine the status code to be echoed.
--m compileall should be looked into more in dept 
+the python interpreter first compile the script then interprete line per line form the bytecode script (.pyc).'$python3 -m compileall -b filename' to compile to bytecode.
+to read bytecode we use "import dis" and then "dis.dis(function or file without .py)". The rest can be found here https://www.youtube.com/watch?v=mE0oR9NQefw . 
