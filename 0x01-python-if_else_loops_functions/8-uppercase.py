@@ -4,5 +4,5 @@ def uppercase(str):
         current = ord(c)
         if current > 96 and current < 123:
             current = current - 32
-        print(chr(current), end='')
+        print("{}".format(chr(current)), end='')
     print("")
