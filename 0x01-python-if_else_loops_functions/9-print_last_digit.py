@@ -4,7 +4,7 @@ def print_last_digit(number):
         print("{}".format(number % 10), end='')
         return (number % 10)
     else:
-        print("{}".format(-1 * (-number % 10)), end='')
+        print("{}".format((-number % 10)), end='')
         return (-number % 10)
 
 # last digit without the - sign this time lol
