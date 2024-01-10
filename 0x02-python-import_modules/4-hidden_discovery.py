@@ -4,5 +4,5 @@ if __name__ == "__main__":
     listf = dir(hidden_4)
     listf.sort()
     for e in listf:
-        if e[0] != '_':
+        if e[0] != '_' and e[1] != '_':
             print(e)
