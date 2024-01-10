@@ -3,5 +3,5 @@ for element in iterator: itterate instances in the order they appear in the sequ
 break and continue affect only the inner loop cintaining them
 the else statement can belong to if just as it can belong to a for 
 the pass statement to do nothing without not writing anything and having an error
-match takes an expression and compare it to cases. only the first case is executed
+match takes an expression and compare it to cases. only the first case is executed, the else is case _:
 functions can have the first line as a string literal (docstring)
