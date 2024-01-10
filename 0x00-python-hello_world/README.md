@@ -17,3 +17,4 @@ the zen of python is printed with "import this"
 the module sys contains write fonctions that allows us to write on stdout.write or stderr.write. it also contains sys.exit() that allows us to determine the status code to be echoed.
 the python interpreter first compile the script then interprete line per line form the bytecode script (.pyc).'$python3 -m compileall -b filename'  or "import py_compile" and "py_compile.compile(file)" to compile to bytecode.
 to read bytecode we use "import dis" and then "dis.dis(function or file without .py)". to understand bytecode: https://www.youtube.com/watch?v=mE0oR9NQefw . 
+The instrucion of bytecode : https://docs.python.org/3.4/library/dis.html
