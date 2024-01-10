@@ -6,6 +6,7 @@ from fibo import *
 import fibo as fib
 from fibo import fib as fibonacci
 sys.ps1 changes the >>> ps2 ...
+int(str) convert str to string
 
 https://docs.python.org/3/tutorial/modules.html
 
