@@ -6,4 +6,7 @@ the pass statement to do nothing without not writing anything and having an erro
 match takes an expression and compare it to cases. only the first case is executed, the else is case _:
 functions can have the first line as a string literal (docstring)
 ord() give ascii code for char while chr() give the char
-INTERESTING: if you have a file with the name of a main module in the working directory it crashes python3 xDDD
+INTERESTING: if you have a file with the name of a main module in the working directory it crashes python3 interpreter at launch wtttffff
+
+https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3
+https://realpython.com/python-f-strings/
