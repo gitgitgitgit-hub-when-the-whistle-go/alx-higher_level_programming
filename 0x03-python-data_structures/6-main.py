@@ -4,5 +4,7 @@ mat1 = [[]]
 mat2 = [
     [1, 2, 3],
     [2, 3]]
+mat3 = [[1], [1], [1]]
 pmi(mat1)
 pmi(mat2)
+pmi(mat3)
