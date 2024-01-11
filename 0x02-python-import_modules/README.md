@@ -10,6 +10,9 @@ int(str) convert str to string
 When importing the global variable are not imported if needed then can be brought this way: module.varname they can be modified an impact the functions of the imported module
 dir(module) allows us to see all the names inside the module but not the variables, the list is SORTED. the functions don't start with __. ImportError: bad magic number in 'hidden_4 might occur becaue hidden_4 is in python3.8 while I use 3.12 a different version
 There are apparently no differences between import and __import__ side from the later been able to handle more arguments like 1- mod_1 etc. we can also import and use the fonction in the same line as __import__('mod').func(arg)
+os.write(fd, buffer) but the buffer have to be 'binary' that is why we add b""
+import string and string.ascii_uppercase to print cap alphabet
+
 
 https://docs.python.org/3/tutorial/modules.html
 https://docs.python.org/3/tutorial/stdlib.html#command-line-arguments
