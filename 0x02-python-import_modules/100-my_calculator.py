@@ -21,3 +21,5 @@ if __name__ == "__main__":
             print("Unknown operator. Available operators: +, -, * and /")
             exit(1)
     print("{} {} {} = {}".format(a, operator, b, func(a, b)))
+
+# careful ./100-.. 1 \* 2 not 1 * 2 in bash xD
