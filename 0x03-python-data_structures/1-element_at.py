@@ -6,4 +6,4 @@ def element_at(my_list, idx):
         return None
     return my_list[idx]
 
-#return blabla[idx] donne blabla[index] meme si blabla n est pas defini
+# return blabla[idx] donne blabla[index] meme si blabla n est pas defini
