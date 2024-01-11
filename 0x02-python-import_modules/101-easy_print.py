@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-"sdfsdf"
+__import__('os').write(1, b"#pythoniscool\n")
