@@ -4,4 +4,6 @@ def element_at(my_list, idx):
         return None
     if idx >= len(my_list):
         return None
-    return list[idx]
+    return my_list[idx]
+
+#return blabla[idx] donne blabla[index] meme si blabla n est pas defini
