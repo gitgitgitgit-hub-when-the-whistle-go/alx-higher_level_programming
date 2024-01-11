@@ -1,4 +1,3 @@
-README 0x00-python-hello_world
 to launch python interpreter: '$ python3' or '$ python3.10'
 use '>>>quit()' or Ctrl-D (EOF) to leave interpreter 
 Ctrl-P for previous prompt, ^P means CL editing not working
