@@ -2,6 +2,7 @@
 if __name__ == "__main__":
     import sys
     lenv = len(sys.argv)
+    # plural or singular
     if lenv == 2:
         arg_args = "argument"
     else:
