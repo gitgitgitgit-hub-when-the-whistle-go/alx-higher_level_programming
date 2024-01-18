@@ -5,4 +5,4 @@ def square_matrix_simple(matrix=[]):
         for e in lis:
             ligne.append(e ** 2)
         newmatrix = ligne
-    return ligne
+    return newmatrix
