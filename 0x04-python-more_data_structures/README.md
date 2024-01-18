@@ -3,8 +3,11 @@ To change or add a value we can do: dict[newKey] = newValue, or by bulk dict.upd
 To remove item: dict.pop(key) or del(dict[key])
 Supports len, .keys, .values, .items, for example: for k, v in dict.items():
 
+https://docs.python.org/3/tutorial/datastructures.html#sets
+https://python-course.eu/advanced-python/lambda-filter-reduce-map.php
+https://python-course.eu/advanced-python/list-comprehension.php
 Corey Schafer - youtube channel - Dictionaries
 
 lambda using examples:
 lambda x1, x2, ...: x1 + x2 + ..
-
+list(map(func, itterable))
