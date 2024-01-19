@@ -14,7 +14,7 @@ def roman_to_int(roman_string):
                 break
             i += 1
         if i == len(lis1):
-            print("character unkown: {}".format(e))
+            # print("character unkown: {}".format(e))
             return None
         # if we are just getting started
         if old == 999:
