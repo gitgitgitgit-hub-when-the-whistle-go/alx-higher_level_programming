@@ -5,3 +5,4 @@ def print_sorted_dictionary(dic):
     for key in lis:
         print("{}: {}".format(key, dic[key]))
 # Warning dic.keys() don't return a list. it return a dict keys weird thing
+# use list comprenhsion or list(dic.keys())
