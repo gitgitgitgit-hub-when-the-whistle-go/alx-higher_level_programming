@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    if roman_string is not str or roman_string == ""
+    if roman_string is not str or roman_string is None:
+        return 0
     lis1 = ['M', 'D', 'C', 'L', 'X', 'V', 'I']
     lis2 = [1000, 500, 100, 50, 10, 5, 1]
     temp = 0
