@@ -4,4 +4,4 @@ def simple_delete(a_dictionary, key=""):
     a_dictionary.pop(key)
     return a_dictionary
 
-# I will create it for you to delete it body <34546 we can be bros
+# I will create it for you to delete it body <3456 we can be bros
