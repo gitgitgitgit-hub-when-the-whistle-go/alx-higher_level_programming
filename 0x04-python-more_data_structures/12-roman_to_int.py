@@ -16,18 +16,20 @@ def roman_to_int(roman_string):
         if i == len(lis1):
             # print("character unkown: {}".format(e))
             return None
-        # if we are just getting started
+        # if we are just getting started or after temp is emptied
         if old == 999:
             old = i
         # what should be done
         if old - i < 0:
             sum += temp
             temp = lis2[i]
+            old = 999
         elif old - i == 0:
             temp += lis2[i]
         elif old - i > 0:
-            sum = lis2[i] - temp
+            sum += lis2[i] - temp
             temp = 0
+            old = 999
         # current become old, you can't stay young forever
         old = i
     # we add what is left of temp because we reached the end of our text
