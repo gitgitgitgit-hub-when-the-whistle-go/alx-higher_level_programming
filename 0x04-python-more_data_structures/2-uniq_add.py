@@ -11,3 +11,5 @@ def uniq_add(my_list=[]):
             sum += e
             element = e
     return sum
+
+# sort to avoid duplicates

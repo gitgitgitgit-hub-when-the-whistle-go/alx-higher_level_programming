@@ -6,3 +6,5 @@ def search_replace(my_list, search, replace):
         if my_list2[i] == search:
             my_list2[i] = replace
     return my_list2
+
+# return a different list so we need to copy the first one
