@@ -8,7 +8,8 @@ set is imutable and don't support list methods but have len.
 lambda using examples:
 lambda x1, x2, ...: x1 + x2 + ..
 list(map(func, itterable))
-
+my initial answer for 101-.. : return [list(map(lambda x: x ** 2, sub_list)) for sub_list in matrix]
+but we can use a lambda list_matrix: list(map(...)) inside another map(this, matrix). A map inside another map. Nested map confrm333d ??
 https://docs.python.org/3/tutorial/datastructures.html#sets
 https://python-course.eu/advanced-python/lambda-filter-reduce-map.php
 https://python-course.eu/advanced-python/list-comprehension.php
