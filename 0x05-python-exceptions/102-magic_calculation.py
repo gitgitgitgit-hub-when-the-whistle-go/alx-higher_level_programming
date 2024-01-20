@@ -11,3 +11,8 @@ def magic_calculation(a, b):
             result = a + b
             break
     return result
+
+# SETUP_EXCEPT become SETUP_FINALLY in the new python
+# it corresponds to try statement
+# INPLACE adds with var += ...otherwise it will be BINARY_ADD
+# BREAK_LOOP = break
