@@ -19,7 +19,10 @@ We can call an exception form inside another one and this is called exception ch
 try:
     raise SyntaxError
 except SyntaxError as exc:
-    raise RunError from exc # or without as exc and from exc it does the same without them lol
+    raise RunError from exc 
+    # or without as exc and from exc it does the same without them lol
+    # actually I just understood it xDD it gaves the message of the error in expected to the raised error
+    #in this example it will be 'RunError: SyntaxError's message'
 '
 
 
