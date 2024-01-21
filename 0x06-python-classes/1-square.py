@@ -3,10 +3,10 @@
 
 
 class Square:
-    """ blablabla doctring is a waste of time 
+    """ blablabla doctring is a waste of time
     Args:
         size: the frakin size
-    Attributs:
+    Attributes:
         __size: sdlkfjslkdflksdjflks
     """
     def __init__(self, size):
