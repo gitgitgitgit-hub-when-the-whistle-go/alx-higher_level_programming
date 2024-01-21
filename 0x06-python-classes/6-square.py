@@ -19,7 +19,7 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-        """ sdfsdfs lksdjflks j """
+        """ sdfsdfs lksdjflks jl """
         pos = self.position
         if self.size == 0:
             print("")
