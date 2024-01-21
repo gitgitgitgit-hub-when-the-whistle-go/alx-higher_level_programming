@@ -24,9 +24,9 @@ class Square:
         if self.size == 0:
             print("")
             exit
-        print(pos[0] * "\n", end='')
+        print(pos[1] * "\n", end='')
         for i in range(self.size):
-            print(pos[1] * " ", end='')
+            print(pos[0] * " ", end='')
             for j in range(self.size):
                 print("#", end='')
             print("")
