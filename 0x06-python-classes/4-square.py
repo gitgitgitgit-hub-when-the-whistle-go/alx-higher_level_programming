@@ -18,7 +18,6 @@ class Square:
 
     @property
     def size(self):
-        """ frakkkkkk docstring """
         return self.__size
 
     @size.setter
