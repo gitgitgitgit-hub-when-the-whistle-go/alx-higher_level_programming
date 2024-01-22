@@ -6,6 +6,7 @@ class Square:
     """ blablabla docstring is a waste of time
     Args:
         size: the frakin size
+        position: tuple
     Attributes:
         __size: sdlkfjslkdflksdjflks
         __position: sdlkfjslkdfjslkfd
