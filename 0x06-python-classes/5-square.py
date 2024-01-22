@@ -20,7 +20,7 @@ class Square:
         """ sdfsdfs lksdjflks j """
         if self.size == 0:
             print("")
-            exit
+            return None
         for i in range(self.size):
             for j in range(self.size):
                 print("#", end='')

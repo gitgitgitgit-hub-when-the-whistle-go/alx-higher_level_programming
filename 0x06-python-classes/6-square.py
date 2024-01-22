@@ -24,7 +24,7 @@ class Square:
         pos = self.position
         if self.size == 0:
             print("")
-            exit
+            return None
         print(pos[1] * "\n", end='')
         for i in range(self.size):
             print(pos[0] * " ", end='')
