@@ -46,37 +46,36 @@ class SinglyLinkedList:
     def __init__(self):
         self.__head = None
 
-    def printsll(self):
+    def __str__(self):
+        """ to str an entire singlylinkedlist """
+        prt = ""
         actual = self.__head
-        i = 0
         while actual is not None:
-            if i  > 12:
-                exit
-            print(actual.data)
+            prt += str(actual.data)
             actual = actual.next_node
-            i += 1
-
-    @property
-    def head(self):
-        return self.__head
-
+            if actual is not None:
+                prt += '\n'
+        return prt
 
     def sorted_insert(self, value):
+        """ insert a value in the right place """
         if self.__head is None:
-            print("empty")
             self.__head = Node(value)
-            return
-        head = Node(self.__head.data, self.__head.next_node)
+            return None
+        head = self.__head
         if value <= self.__head.data:
             self.__head = Node(value, head)
-            return
-        # if you use nude = head when you modify nude ,
-        # you modify head also so create a diplicate.
-        nude = Node(head.data, head.next_node)
+            return None
+        # if you use nude = head when you modify nude's attributes,
+        # you modify head's also. but nude = another_node
+        # do not affect head. think of it as pointer in C.
+        # Maybe it's a ponter after all who knows xD
+        # After quick search it is a pointer leeel
+        # print("data:{} next:{}".format(head.data, head.next_node))
+        nude = head
         while nude.next_node is not None:
             if nude.data <= value and nude.next_node.data >= value:
                 nude.next_node = Node(value, nude.next_node)
-                return
-            nude = Node(nude.next_node.data, nude.next_node.next_node)
+                return None
+            nude = nude.next_node
         nude.next_node = Node(value, None)
-        self.printsll()
