@@ -33,7 +33,7 @@ class Square:
             print("")
 
     def __str__(self):
-        """ sdfsdfs lksdjflks jl """
+        """ sdfsdfs lksdjjnjnjnflks jl """
         prt = ""
         pos = self.position
         if self.size == 0:
