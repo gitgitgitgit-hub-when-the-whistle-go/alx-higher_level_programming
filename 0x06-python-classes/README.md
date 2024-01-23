@@ -44,7 +44,9 @@ Private are not readable or writable to expect in class definition itself. __att
 
 Data encapsulation is to handle data with getters and setters so it can’t be accidentally changed.
 
-But apparently pythoneers like to auto-contratry, so we are going to play it private but in the same time public and this can be achived by using decorators and private attributes. This will allow us to raise errors in case data is not conveniente
+But apparently pythoneers like to auto-contratry, so we are going to play it private but in the same time public and this can be achived by using decorators and private attributes. This will allow us to raise errors in case data is not convenient.
+
+See 6-square.py or 100-singly_linked_list.py for examples.
 
 how to use decoration: https://python-course.eu/oop/properties-vs-getters-and-setters.php
 
