@@ -35,6 +35,8 @@ The attributes of an instance are stored in a dictionary and can be accessed wit
 The __str__ and __repr__ are two methods that convert object to string. If no function is defined, Python uses the default str(element). This is used in print: print(obj) is print(__str__(obj))
 The method (destructor) __del__() allows us to delete the instance. If it’s not defined then default one will be used.
 
+we can use comparators like def __eq__(self, other) for equal. ne: != ,, gt: > ,, ge >= ,, lt ,, le.
+
 There are 3 types of attributes: public, protected and private.
 Public attributes are accessible inside and outside class definition. attribute1
 Protected shouldn’t be used outside of class definition inside of subclass definition. _attributes2
@@ -45,3 +47,4 @@ Data encapsulation is to handle data with getters and setters so it can’t be a
 But apparently pythoneers like to auto-contratry, so we are going to play it private but in the same time public and this can be achived by using decorators and private attributes. This will allow us to raise errors in case data is not conveniente
 
 how to use decoration: https://python-course.eu/oop/properties-vs-getters-and-setters.php
+
