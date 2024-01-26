@@ -8,7 +8,7 @@ import statement
 
     >>> add_integer = __import__('0-add_integer').add_integer
 
- Usage:
+Usage:
     >>> add_integer(10)
     108
 

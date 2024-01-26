@@ -1,0 +1,3 @@
+>>> matrix_divided = __import__('matrix_divided').matrix_divided
+>>> matrix_divided([[1,3]], 2)
+[[0.5, 15]]
