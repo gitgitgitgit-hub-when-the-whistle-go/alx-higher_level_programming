@@ -23,6 +23,8 @@ def matrix_divided(matrix, div):
     # we need to check for matrix empty or None or priest
     if matrix is None or matrix == []:
         return None
+    if not isinstance(matrix, list):
+        raise Exception('it was at this moment Jackson knew... he fad up')
     lenght = len(matrix[0])
     for e in matrix:
         if len(e) != lenght:
