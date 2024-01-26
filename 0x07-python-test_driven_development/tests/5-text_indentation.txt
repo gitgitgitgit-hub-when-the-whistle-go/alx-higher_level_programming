@@ -1,0 +1,15 @@
+>>> func = __import__('5-text_indentation').text_indentation
+
+>>> func('  ttt. ffff:ddd?gggg    ')
+ttt.
+<BLANKLINE>
+ffff:
+<BLANKLINE>
+ddd?
+<BLANKLINE>
+gggg
+
+>>> func(1)
+Traceback (most recent call last):
+...
+TypeError: text must be a string
