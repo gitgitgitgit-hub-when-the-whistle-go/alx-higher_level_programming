@@ -34,13 +34,13 @@ def matrix_divided(matrix, div):
     for lis in new_matrix:
         for i in range(lenght):
             try:
-                lis[i] /= div
+                lis[i] = round(lis[i] / div, 2)
             except ZeroDivisionError:
                 raise ZeroDivisionError('division by zero')
             except TypeError:
                 # the only type error now is the one from dividing non integers
                 raise TypeError('matrix must be a matrix (list of lists) of \
-                    integers/floats')
+integers/floats')
     return new_matrix
 
 
