@@ -38,9 +38,14 @@ class Rectangle:
 
     def area(self):
         """ calculate the area for you because you don't know how to X, jkd"""
+
+
         return self.width * self.height
 
     def perimeter(self):
-        """ No comment """
+        """ pre!@#!@#!@!meter"""
+
+
+        # if w or h is 0 then perimeter 0, just use area in one comparaison xD 
         if self.area() != 0:
             return 2 * (self.width + self.height)
