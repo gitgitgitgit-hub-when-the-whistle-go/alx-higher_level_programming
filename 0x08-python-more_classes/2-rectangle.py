@@ -37,21 +37,11 @@ class Rectangle:
         self.__height = height
 
     def area(self):
-        """ calculate the area for you because you don't know how to X, jkd
-
-        Returns: I hate doctring
-        """
-
+        """ calculate the area for you because you don't know how to X """
         return self.width * self.height
 
     def perimeter(self):
-        """
-        pre!@#!@
-        #!@!meter
-
-        Returns: I realllllllyyyyyy hate docstring
-        """
-
+        """ docstring """
         # if w or h is 0 then perimeter 0, just use area in one comparaison xD
         if self.area() != 0:
             return 2 * (self.width + self.height)
