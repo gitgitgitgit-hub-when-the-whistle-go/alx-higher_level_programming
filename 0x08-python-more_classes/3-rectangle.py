@@ -52,4 +52,11 @@ class Rectangle:
         if self.area() == 0:
             return ''
         row = '#' * self.width + '\n'
-        return row * self.height
+        mat = row * self.height
+        # we need to remove the last \n apparently, we can use rstrip
+        # rstrip remove the sequence from the ending of the string
+        # default is space
+        # I accidentally typed rsplit and there is a function rsplit xD
+        # return mat.rstrip('\n')
+        # but I prefere mine xD
+        return mat[0:-1]
