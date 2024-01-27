@@ -37,10 +37,10 @@ class Rectangle:
         self.__height = height
 
     def area(self):
-        """ calculate the area for you because you don't know how to X, jkd
+        """ Calculates the area of the rectangle
 
         Returns:
-            JoeMama: I hate doctring
+            int: The Area of the rectangle
         """
 
         return self.width * self.height
