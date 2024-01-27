@@ -59,7 +59,7 @@ class Rectangle:
         """ blabla """
         if self.area() == 0:
             return ''
-        row = print_symbol * self.width + '\n'
+        row = Rectangle.print_symbol * self.width + '\n'
         mat = row * self.height
         # we need to remove the last \n apparently, we can use rstrip
         # rstrip remove the sequence from the ending of the string
