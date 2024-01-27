@@ -71,5 +71,7 @@ class Rectangle:
 
     def __del__(self):
         """ customized delete """
-        print("Bye rectangle...") # you won't be remenbered xD
-        del(self)
+        print("Bye rectangle...")  # you won't be remenbered xD
+        # del is apparently a keyword like return so don't write del(self)
+        # or pycodestyle will come and .... in your sleep
+        del self
