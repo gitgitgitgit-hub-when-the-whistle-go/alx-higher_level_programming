@@ -1,3 +1,3 @@
 normal method: def norm_meth(first_arg, ...): here the first one is the instance commonly known as self.
-class method: def my_methd(first_arg , ...). here first_arg refers to the class (commonly known as cls) and not the object as in usual methods. thus, this functions can be called without initiating  an instance where normal method would cause an error. a class method is achived by adding decorator @classmethod
+class method: def my_methd(first_arg , ...). here first_arg refers to the class (commonly known as cls) and not the object as in usual methods, even if called from object. thus, this functions can be called without initiating  an instance where normal method would cause an error. a class method is achived by adding decorator @classmethod
 static method: def sta_meth(first, sec,...) here first arg is first arg (inset Mr Incredible meme template). it behaves like normal functions but is tied to the class. it decorator is @staticmethod
