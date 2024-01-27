@@ -3,5 +3,5 @@
 
 
 class Rectangle:
-    """ dsfsdfsf """
+    """ rectangle class """
     pass
