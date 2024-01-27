@@ -45,3 +45,4 @@ class Rectangle:
         # if w or h is 0 then perimeter 0, just use area in one comparaison xD
         if self.area() != 0:
             return 2 * (self.width + self.height)
+        return 0
