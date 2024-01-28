@@ -6,6 +6,7 @@ in 18 task: the function creates duplicates of each list and thus, the original 
 l1 = []; l2 = []; l1 is l2  # True
 list += list + otherlist  # here the list do not change address
 list = list + otherlist  # here the list changes it address
+To create a locked where the only attributes and method we use __slots__ = tuple of strings of what is authorized
 
 
 hypothesis:
@@ -33,7 +34,7 @@ rev, e))
 ...     prev = actu
 ... 
 140694918459200 >>> 140694923182320 >>> 4723120 >>> 1
-140694923182320 >>> 140694923182352 >>> 32 >>> 2
+140694923182320 >>> 140694923the_only_attribute_possible" , "name", __dict__182352 >>> 32 >>> 2
 140694923182352 >>> 140694923182384 >>> 32 >>> 3
 140694923182384 >>> 140694923182416 >>> 32 >>> 4
 140694923182416 >>> 140694923182448 >>> 32 >>> 5
