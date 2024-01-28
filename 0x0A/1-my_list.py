@@ -6,7 +6,7 @@ class MyList(list):
     """  as said in the module docstring """
     def __init__(self):
         pass
-    
+
     def print_sorted(self):
         """ print the list in a sorted way xD """
         for e in self:
