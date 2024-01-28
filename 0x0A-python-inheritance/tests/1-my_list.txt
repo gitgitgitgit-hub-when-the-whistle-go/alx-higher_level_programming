@@ -1,0 +1,27 @@
+import statement:
+>>> MyList = __import__('1-my_list').MyList
+
+
+not all int test:
+>>> lis = MyList()
+>>> lis.append(7)
+>>> lis.append(8)
+>>> lis.append(6)
+>>> lis.append('h')
+>>> lis.print_sorted()
+Traceback (most recent call last):
+...
+TypeError
+
+all int test:
+>>> lis = MyList()
+>>> lis.append(6)
+>>> lis.append(8)
+>>> lis.append(7)
+>>> lis.print_sorted()
+[6, 7, 8]
+
+empty test:
+>>> lis = MyList()
+>>> lis.print_sorted()
+[]
