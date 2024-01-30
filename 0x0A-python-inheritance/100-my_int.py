@@ -19,15 +19,15 @@ class MyInt(int):
         # mine maybe because I specified the supper class as int ?????
         self.__value = value
 
-    def __eq__(self, other):
-        if self.__value == other.__value:
-            return False
-        return True
+#    def __eq__(self, other):
+#        if self.__value == other.__value:
+#            return False
+#        return True
 
-    def __ne__(self, other):
-        if self.__value == other.__value:
-            return True
-        return False
+#    def __ne__(self, other):
+#        if self.__value == other.__value:
+#            return True
+#        return False
 
 
 ######## this code is not working, eq and ne are not overwritten ########
