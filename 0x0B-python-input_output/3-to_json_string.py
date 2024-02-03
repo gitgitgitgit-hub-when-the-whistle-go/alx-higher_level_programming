@@ -6,5 +6,5 @@ import json
 
 
 def to_json_string(my_obj):
-    """ RTFmoduledoc """
+    """ R T F moduledoc """
     return json.dumps(my_obj)
