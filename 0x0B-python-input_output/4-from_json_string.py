@@ -2,9 +2,9 @@
 """ returns an object (Python data structure) represented by a JSON string """
 
 
-from json import load
+import json
 
 
 def from_json_string(jsonObj):
     """ as mod doc says xD """
-    return load(jsonObj)
+    return json.loads(jsonObj)
