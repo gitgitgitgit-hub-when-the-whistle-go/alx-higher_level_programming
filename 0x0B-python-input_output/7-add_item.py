@@ -9,6 +9,5 @@ if __name__ == "__main__":
         lis = load_file("add_item.json")
     except FileNotFoundError:
         lis = []
-        print("not found")
     lis.extend(sys.argv[1:])
     save_file(lis, "add_item.json")
