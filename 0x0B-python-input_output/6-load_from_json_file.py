@@ -7,4 +7,6 @@ import json
 
 def load_from_json_file(filename):
     """ as mod doc says xD """
-    return json.load(filename)
+    with open(filename, 'r', encoding="utf-8") as f:
+        string = json.load(filename)
+    return string
