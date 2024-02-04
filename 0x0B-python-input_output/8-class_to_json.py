@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-""" class to json """
+""" I hate docstring I hate docstring I hate docstring """
 
 
 def class_to_json(obj):
-    """ returns class to json """
+    """ I hate docstring I hate docstring I hate docstring """
     import json
     return json.dumps(dir(obj))
