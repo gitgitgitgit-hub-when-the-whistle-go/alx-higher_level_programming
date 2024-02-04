@@ -11,11 +11,11 @@ class Student:
 
     def to_json(self, attrs=None):
         """ from attribute dict to json """
-        objdict = self.__dict__
-        if type(attrs) is list:
+        objdict = self.__dict__.copy()
+        if type(attrs) is not list:
             return objdict
         for element in attrs:
-            if type(element) is str:
+            if type(element) is not str:
                 return objdict
         if attrs == []:
             return objdict
