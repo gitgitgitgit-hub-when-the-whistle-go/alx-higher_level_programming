@@ -3,6 +3,6 @@
 
 
 def class_to_json(obj):
-    """ class to json """
+    """ returns class to json """
     import json
     return json.dumps(dir(obj))
