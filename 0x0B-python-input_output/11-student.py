@@ -25,3 +25,7 @@ class Student:
             if k not in attrs:
                 objdict.pop(k)
         return objdict
+
+    def reload_from_json(self, json):
+        """ reinitialize instance form json """
+        self.__dict__.update(json)
