@@ -11,7 +11,7 @@ class Student:
 
     def to_json(self, attrs=None):
         """ from attribute dict to json """
-        #.copy otherwise it refers to the actual dict
+        # .copy otherwise it refers to the actual dict
         objdict = self.__dict__.copy()
         if type(attrs) is not list:
             return objdict
