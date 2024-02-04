@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-""" I hate docstring I hate docstring I hate docstring """
+""" class_to_json """
 
 
 def class_to_json(obj):
-    """ I hate docstring I hate docstring I hate docstring """
+    """ class_to_json """
     return obj.__dict__
