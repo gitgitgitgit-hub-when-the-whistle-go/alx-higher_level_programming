@@ -3,6 +3,7 @@
 
 
 def append_after(filename='', search_string='', new_string=''):
+    """ docstring fails the checker again f#@$@#$Q@#W$@ """
     lines = []
     with open(filename, 'r', encoding='utf-8') as f:
         for line in f:
