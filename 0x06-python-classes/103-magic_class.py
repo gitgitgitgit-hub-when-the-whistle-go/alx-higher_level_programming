@@ -6,7 +6,10 @@ import math
 
 
 class magic_class:
-    """ based on a python bytecode """
+    """ based on a python bytecode
+    attrs:
+            radius
+    """
     def __init__(self, radius):
         self.__radius = 0
         if type(radius) is not int and type(radius) is not float:
