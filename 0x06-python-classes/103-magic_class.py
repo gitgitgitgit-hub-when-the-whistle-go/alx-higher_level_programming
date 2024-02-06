@@ -17,7 +17,10 @@ class magic_class:
         self.__radius = radius
 
     def area(self):
+        """ returns the area """
         return self.__radius ** 2 * math.pi
 
     def circumference(self):
+        """ i hate docstring """
         return 2 * math.pi * self.__radius
+
