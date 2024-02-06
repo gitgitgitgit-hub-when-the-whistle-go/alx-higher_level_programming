@@ -23,4 +23,3 @@ class magic_class:
     def circumference(self):
         """ i hate docstring """
         return 2 * math.pi * self.__radius
-
